@@ -22,31 +22,31 @@ print(customer.get("birth_date"))
 # out:- None , because key = "abc" is not present in dictionarie
 print(customer.get("abc"))
 
-# numbers = {
-#     "1": "One",
-#     "2": "Two",
-#     "3": "Three",
-#     "4": "Four",
-#     "5": "Five",
-#     "6": "Six",
-#     "7": "Seven",
-#     "8": "Eight",
-#     "9": "Nine"
-# }
+numbers = {
+    "1": "One",
+    "2": "Two",
+    "3": "Three",
+    "4": "Four",
+    "5": "Five",
+    "6": "Six",
+    "7": "Seven",
+    "8": "Eight",
+    "9": "Nine"
+}
 
-# phone = input("Phone: ")
-# i = 0
-# while i < len(phone):
-#     print(numbers.get(phone[i]))
-#     i += 1
-# # out:- one
-#     # two
-#     # three
+phone = input("Phone: ")
+i = 0
+while i < len(phone):
+    print(numbers.get(phone[i]))
+    i += 1
+# out:- one
+    # two
+    # three
 
-# output = ""
-# for ch in phone:
-#     output += numbers.get(ch, "!") + " "
-# print(output)
+output = ""
+for ch in phone:
+    output += numbers.get(ch, "!") + " "
+print(output)
 
 # convert emojis
 
